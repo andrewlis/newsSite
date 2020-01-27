@@ -1,0 +1,95 @@
+.central-picture {
+			background-image: url(/assets/img/central.png);
+			height: 325px;
+			color: white;
+			margin-bottom: 20px;
+			background-repeat: no-repeat;
+
+        .picture-tor {
+				  padding-top: 110px;
+				  padding-left: 20px;
+				  margin-bottom: 25px;
+				  font-size: 12px;
+
+            a{
+              text-decoration: none;
+              color: white;
+            }
+
+        }
+
+			  .picture-center {
+				  padding-left: 20px;
+				  margin-bottom: 30px;
+				  font-size: 30px;
+			  }
+
+			  .picture-bottom {
+				  padding-left: 20px;
+				  margin-bottom: 60px;
+				  font-size: 10px;
+			  }
+
+				.picture-bottom-date {
+					float: left;
+					margin-right: 20px;
+				}
+
+				.picture-bottom-time {
+					float: left;
+					padding-left: 15px;
+					background-image: url(/assets/img/clock.png);
+					background-repeat: no-repeat;
+					background-color: transparent;
+				}
+
+ }
+    	.bottom-news {
+     		margin-bottom: 20px;
+     		overflow: hidden;
+    	}
+
+    		.bottom-news-left {
+    			float: left;
+    		}
+
+    		.bottom-news-rigth {
+    			float: right;
+    		}
+
+    		.bottom-sign {
+    			margin-top: 5px;
+    			margin-bottom: 15px;
+    			font-size: 14px;
+    			width: 200px;
+    		}
+
+		    	.bottom-prop {
+		    		margin-top: 16px;
+		    		font-size: 12px;
+		    		position: relative;
+		    		color: #323232;
+		    	}
+
+		    	.bottom-prop a {
+		    		color: #a9a9b3;
+		    		font-size: 12px;
+		       	}
+
+		    	.bottom-time {
+		    		position: absolute;
+		    		top: 0;
+		    		left: 70px;
+		    		padding-left: 15px;
+					background-image: url(/assets/img/icon-time.png);
+					background-repeat: no-repeat
+		    	}
+
+		    	.bottom-comment {
+		    		position: absolute;
+		    		top: 0;
+		    		left: 135px;
+		    		padding-left: 15px;
+					background-image: url(/assets/img/icon-comments.png);
+					background-repeat: no-repeat
+		    	}

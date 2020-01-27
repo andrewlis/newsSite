@@ -1,0 +1,25 @@
+div {
+  position: relative;
+  overflow-y: hidden;
+}
+app-column-left {
+  	background-color: white;
+	  width: 250px;
+	  float: left;
+}
+
+app-column-center {
+  width: 420px;
+	margin-left: 20px;
+	float: left;
+}
+
+app-column-right {
+  width: 250px;
+	float: right;
+}
+
+app-column-bottom {
+  height: 450px;
+	background-color: #f9f9f9;
+}

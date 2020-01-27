@@ -1,0 +1,30 @@
+<div id="block">
+<div id="special-news">
+  <div id="special-news-theme">
+    <a routerLink="/politics">/Политика</a>
+    <div id="special-news-name">
+      Пекин обвинил Вашингтон в&nbsp;развязывании торговой <br>войны
+    </div>
+    <nav id="special-news-time-date">
+      <div id="special-news-date">19 Июня 2018</div>
+      <div id="special-news-time">10:48</div>
+    </nav>
+    <div id="special-news-description">
+      Министерство коммерции Китая заявило, что Пекин примет «качественные» и «количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары
+    </div>
+  </div>
+</div>
+<div id="special-news-righth">
+  <h2>Самые читаемые новости</h2>
+  <div *ngFor="let opt of news" class="special-news-item">
+    <div class="special-text">
+      {{opt.newsName}}
+    </div>
+    <nav class="special-prop">
+      <a routerLink="/politics">{{opt.newsTag}}</a>
+      <div class="special-time">{{opt.newsTime}}</div>
+      <div class="special-comment">{{opt.newsComment}}</div>
+    </nav>
+  </div>
+</div>
+</div>

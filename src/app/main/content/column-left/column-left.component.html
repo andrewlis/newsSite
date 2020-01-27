@@ -1,0 +1,14 @@
+<h2>Новости дня</h2>
+  <div class="news-item" *ngFor="let opt of news">
+    <div class="item-text">
+      {{opt.newsName}}
+    </div>
+    <nav class="item-prop">
+      <a routerLink="/politics">{{opt.newsTag}}</a>
+      <div class="item-time">{{opt.newsTime}}</div>
+      <div class="item-comment">{{opt.newsComment}}</div>
+    </nav>
+  </div>
+<nav class="button-rigth">
+  <button>Все новости</button>
+</nav>
