@@ -3,11 +3,7 @@
 			<img class="logo" src="../assets/img/logo.png" alt="Логотип компании">
 			<div class="town">
 				<select id="select">
-					<option>Москва</option>
-					<option>Баку</option>
-					<option>Челяба</option>
-					<option>Пидербург</option>
-					<option>Майами</option>
+					<option *ngFor="let city of cities">{{city}}</option>
 				</select>
 			</div>
 			<div class="input">
